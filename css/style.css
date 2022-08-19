@@ -9408,6 +9408,7 @@ textarea.form-control {
     text-transform: uppercase; }
 
 .contact-section .contact-form {
+    margin-top: 50px;
   width: 100%; }
 
 .contact-section .img {
