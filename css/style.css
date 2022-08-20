@@ -1599,7 +1599,7 @@ pre {
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #8bffc9;
   border-radius: 0.25rem;
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -8688,7 +8688,8 @@ h1, h2, h3, h4, h5,
   font-size: 7vw; }
 
 .bg-light {
-  background: #f8f9fa !important; }
+  border-radius: 10px;
+  background: #1E1E1E !important; }
 
 .bg-dark {
   background: #191919 !important; }
@@ -9026,9 +9027,14 @@ h1, h2, h3, h4, h5,
         background: transparent;
         display: none; } }
 
+
+/* .form-control :hover {
+border: 1px solid green;
+} */
+
 .form-control {
   height: 52px !important;
-  background: #fff !important;
+  background: #1E1E1A !important;
   color: #000000 !important;
   font-size: 18px;
   border-radius: 5px;
